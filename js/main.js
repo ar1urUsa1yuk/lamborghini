@@ -1,3 +1,14 @@
+
+
+
+
+const menuBtn = document.querySelector('.menu__btn');
+const menuMobile = document.querySelector('.menu-mobile');
+
+menuBtn.addEventListener('click', () => {
+	menuMobile.classList.toggle('menu--open');
+})
+
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
